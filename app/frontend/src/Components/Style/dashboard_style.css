@@ -1,0 +1,45 @@
+.container-fluid {
+  padding-left:  0px;
+  padding-right:  0px;
+}
+.container_title {
+  text-align: center;
+}
+.container_title h1 {
+  text-decoration: none;
+  font-size: 30px ;
+  padding: 10px ;
+}
+.title  {
+  text-decoration: none;
+  font-size: 20px ;
+  padding: 8px ;
+}
+.container_content {
+  display : flex ;
+  flex-wrap: wrap ;
+  justify-content: center;
+  padding-top: 50px;
+}
+.content_element {
+  width: 20% ;
+  padding: 10px;
+  text-align: center;
+  cursor : pointer;
+}
+.container_chart {
+  width: 40%;
+  margin: auto;
+}
+.border {
+ width: 40%;
+ height: 5px;
+ background: #0984e3;
+ margin: 40px auto;
+}
+@media screen and (max-width:500px) {
+  .content_element {
+    width: 100% ;
+    padding: 20px ;
+  }
+}

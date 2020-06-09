@@ -1,0 +1,4 @@
+**/docker-hadoop
+**/__pycache__/*
+**/node_modules/*
+**/data/rating_*.csv
